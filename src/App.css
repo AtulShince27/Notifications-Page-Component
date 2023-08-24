@@ -1,38 +1,147 @@
-.App {
-  text-align: center;
+body{
+  background-color: hsl(210, 60%, 98%);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content-container{
+  width: 50%;
+  height: 52.5rem;
+  margin-top: 2.5rem;
+  margin-left: 25%;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 2.5px 2.5px 10px 2px hsl(230, 30%, 77%);
+  padding: 2rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 1.5rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header span{
   color: white;
+  background-color: hsl(219, 85%, 26%);
+  margin-left: 8px;
+  padding: 4px 8px;
+  border-radius: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+.header p{
+  margin-left: 60%;
+  text-align: right;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header h1{
+  font-size: 1.5rem;
+}
+.notification{
+  padding: 10px;
+  border-radius: 7.5px;
+  width: 97.5%;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  margin-bottom: 1.5rem;
+  height: 3.5rem;
+}
+.noti-1{
+  background-color: hsl(210, 60%, 98%);
+}
+.noti-2{
+  background-color: hsl(210, 60%, 98%);
+}
+.noti-3{
+  background-color: hsl(210, 60%, 98%);
+}
+.noti-4{
+  margin-bottom: 6rem;
+}
+.comment{
+  grid-row: 3;
+  padding: 1.25rem;
+  width: 75%;
+  margin-top: 10px;
+  border: 1.4px solid hsl(205, 33%, 90%);
+  border-radius: 5px;
+}
+.avatar{
+  grid-column: 1;
+  grid-row: 1/span 3;
+}
+.text-content{
+  margin-left: 5px;
+}
+.notification-text{
+  color: hsl(224, 21%, 14%);
+  margin-left: 4px;
+}
+.username{
+  color: hsl(224, 21%, 14%);
+  font-weight: 800;
+}
+.notification-content{
+  color: hsl(219, 12%, 42%);
+}
+.mark-webber{
+  background-image: url(./assets/images/avatar-mark-webber.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.angela-gray{
+  background-image: url(./assets/images/avatar-angela-gray.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.jacob-thompson{
+  background-image: url(./assets/images/avatar-jacob-thompson.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.rizky-hasanuddin{
+  background-image: url(./assets/images/avatar-rizky-hasanuddin.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 75%;
+  margin-left: 7.5px;
+}
+.kimberly-smith{
+  background-image: url(./assets/images/avatar-kimberly-smith.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.nathan-peterson{
+  background-image: url(./assets/images/avatar-nathan-peterson.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.anna-kim{
+  background-image: url(./assets/images/avatar-anna-kim.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.notification-text{
+  grid-column: 2;
+  grid-row: 1;
+}
+.posting-time{
+  grid-column: 2;
+  grid-row: 2;
+  color: hsl(219, 12%, 42%);
+}
+.chess-club{
+  color:  hsl(219, 85%, 26%);
+  font-weight: 800;
+}
+.previous-post{
+  color: hsl(219, 12%, 42%);
+  font-weight: 800;
+}
+.attribution { 
+  margin-top: 2rem;
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
 }
